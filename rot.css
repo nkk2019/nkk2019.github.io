@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	background-size: cover;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.main-header {
+	background: url("imgs/compost.jpg") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.main-header-intro {
+	line-height: 1.5em;
+	width: 50%;
+	margin: auto;
+	padding: 40px;
+	color: #333333;
+	text-align: justify;
+}
+
+.box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.card1 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding: 20px;
+	margin: 12px;
+	text-align: left;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 14pt;
+}
+
+.card1 img {
+	max-width: 100%;
+}
+
+.card2 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding: 20px;
+	margin: 12px;
+	text-align: center;
+	background-color: white;
+}
+
+@media screen and (min-width: 800px) {
+	.card1 {
+		flex: 1;
+	}
+	.card2 {
+		flex: 1;
+	}
+}
+
+.footer {
+	height: 40px;
+	background: #f0f5f5;
+	padding: 5px;
+}
+
+.fab {
+	border: 0;
+}

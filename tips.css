@@ -1,14 +1,15 @@
 body {
-	color: #333333;
 	margin: 0;
-	font-family: "Montserrat", sans-serif;
+	background-size: cover;
+	font-family: sans-serif;
 	text-align: center;
 }
 
 .main-header {
-	background: url("imgs/pic1.jpg") no-repeat center;
+	background: url("imgs/constellation.jpg") no-repeat center;
 	background-size: cover;
-	height: 250px;
+	width: 100%;
+	height: 400px;
 }
 
 .main-header-intro {
@@ -18,11 +19,6 @@ body {
 	padding: 40px;
 	color: #333333;
 	text-align: justify;
-}
-
-.intro {
-	width: 60%;
-	margin: auto;
 }
 
 .box {
@@ -37,19 +33,17 @@ body {
 	flex-direction: column;
 	flex-basis: 100%;
 	padding: 20px;
+	margin: 12px;
 	text-align: left;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 14pt;
 }
 
 @media screen and (min-width: 800px) {
 	.card {
-		flex: 1
+		flex: 1;
 	}
-}
-
-.cardimage {
-	border: 1px solid #dddddd;
-	width: 100%;
-	height: auto;
 }
 
 .footer {
